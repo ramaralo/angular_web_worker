@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="js.js"></script>
+
+</head>
+<body ng-app="myApp">
+<div ng-controller="MyCtrl as ctrl">
+    <p>Type in a comma separated text, and the web worker will split and present you with the result</p>
+    <input ng-model="ctrl.inputText" type="text">
+    <button ng-click="ctrl.sendMessage()">Send to worker</button>
+    <ul>
+        <li ng-repeat="elem in ctrl.data track by $index">{{elem}}</li>
+    </ul>
+</div>
+
+</body>
+</html>

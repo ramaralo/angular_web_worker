@@ -1,0 +1,26 @@
+{
+  "name": "angular_web_worker",
+  "version": "1.0.0",
+  "description": "Example of a web worker implementation on an angular app",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramaralo/angular_web_worker.git"
+  },
+  "keywords": [
+    "angular",
+    "webworker"
+  ],
+  "author": "Ruben Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramaralo/angular_web_worker/issues"
+  },
+  "homepage": "https://github.com/ramaralo/angular_web_worker#readme",
+  "dependencies": {
+    "angular": "^1.6.2"
+  }
+}
