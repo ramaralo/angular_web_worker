@@ -4,7 +4,8 @@
   "description": "Example of a web worker implementation on an angular app",
   "main": "index.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "node_modules/karma/bin/karma start",
+    "serve": "node node_modules/http-server/bin/http-server"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,16 @@
   },
   "homepage": "https://github.com/ramaralo/angular_web_worker#readme",
   "dependencies": {
-    "angular": "^1.6.2"
+    "angular": "^1.5.7",
+    "http-server": "^0.9.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.5.7",
+    "jasmine-core": "^2.4.1",
+    "jscs": "^3.0.6",
+    "karma": "^1.1.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "0.3.7",
+    "karma-phantomjs-launcher": "^1.0.1"
   }
 }

@@ -49,7 +49,7 @@ myApp.controller('MyCtrl', function MyCtrl($timeout, workerFactory, workerFuncti
     this.data = '';
 
     this.sendMessage = function () {
-        worker.postMessage(self.inputText);
+        worker.postMessage(self.inputText)
     };
 
     function setData(data) {
